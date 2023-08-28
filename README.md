@@ -48,10 +48,10 @@ The shift to GBC significantly enhanced the accuracy and performance of the sent
 
 ## Example Usage
 ```python
-from gbc_classifier import GBCSentimentClassifier
+from model import GBT_Sentiment_model
 
 # Load the GBC sentiment classifier
-classifier = GBCSentimentClassifier()
+classifier = "GBT_Sentiment_model.pkl"
 
 # Predict sentiment for a text
 text = "Feeling excited about the upcoming project!"
